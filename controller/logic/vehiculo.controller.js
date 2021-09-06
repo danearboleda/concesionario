@@ -84,6 +84,6 @@ exports.deleteVehiculo = (req, res) => {
         if(err){
             res.status(400).send({message: "error al borrar"});
         }
-        res.status(204).send({message: "Eliminado"});
+        res.status(204).send({message: "Vehiculo eliminado"});
     });
 };
