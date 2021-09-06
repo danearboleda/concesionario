@@ -79,7 +79,7 @@ exports.getAll = (req, res, next) => {
     });
 };
 
-exports.deleteVehiculo = (req, res, next) => {
+exports.deleteVehiculo = (req, res) => {
     vehiculoDto.delete({_id: req.params.id}, (err, data) =>{
         if(err){
             res.status(400).send({message: "error al borrar"});
