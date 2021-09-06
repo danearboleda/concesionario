@@ -1,0 +1,11 @@
+{
+    "db-connections":{
+        "mongodb":{
+            "host":"cluster0.0dghw.mongodb.net",
+            "user":"concesionario_rest_api_user",
+            "password":"EmOOeLgoY55PyoSg",
+            "dbname":"ConcesionarioDB"
+        }
+    },
+    "server-port": 4000
+}
